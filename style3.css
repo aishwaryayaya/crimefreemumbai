@@ -1,0 +1,119 @@
+#head h1{
+    text-align:center;
+    margin-top: 13px;
+    margin-bottom: 5px;
+     text-decoration-line: overline;
+     text-decoration-color: rgb(245, 102, 46);
+}
+.maindiv{
+    display: flexbox;
+    font-size: 1rem;
+} 
+
+h2{ 
+    padding: 6px 44px;
+}
+
+#list{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    padding: 0px;
+}
+#list ul{
+    /*border: 2px solid rgb(22, 37, 121);*/
+    padding: 19px 22px;
+    font-size: 1.2rem;
+    border-radius: 23px;
+    margin: 3px 8px;
+    background-color: #d8befa;
+    list-style-type:square;
+}
+#list li{
+    padding: 6px 12px;
+}
+#title{
+    color: white;
+    background-color: rgb(90, 47, 146);
+    display: flex;
+    margin: 20px 590px;
+    margin-bottom: 8px;
+    font-size: 1.5rem
+}
+p {
+font-size: 1.2rem;
+padding: 12px 2px;
+}
+.content{
+    display: inline-block;
+
+}  
+.left-vid{
+    display: flexbox;
+    margin-left: 30px;
+    
+}
+.left-vid h2{
+    margin: 19px 2px;
+    width: 70%;
+    background-color: rgb(109, 201, 109);
+}
+
+.right-pdf{
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    height: 100px;
+   left:900px;
+    top: 587px;
+}
+
+.right-pdf h2{
+    margin: 0px 12px;
+    width: 50%;
+    margin-bottom: 59px;
+    background-color: rgb(109, 201, 109);
+}
+.right-pdf li{
+    padding: 19px 22px;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    margin: 16px 8px;
+    background-color: #d8befa;
+    list-style: none;
+    padding: 13px 2px;
+    font-size: 1.2rem;
+}
+.right-pdf li a{
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+.right-pdf li a:hover{
+    color:white;
+    background-color: rgb(90, 47, 146);
+}
+
+.info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 22px 12px;
+}
+.info h3{
+    margin: 12px 2px;
+}
+.info p{
+    background-color: rgb(224, 171, 224);
+    margin: 2px 2px;
+    padding: 23px 23px;
+}
+
+.info ul{
+    margin: 0px 1px;
+    background-color: rgb(224, 171, 224);
+    padding-left: 33px;
+
+}
+
+#evi{
+    margin: 0px;
+}
